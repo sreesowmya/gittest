@@ -1,8 +1,8 @@
 #include<stdio.h>
 void main()
 {
-int a=9,b=1,c;
+int a=8,b=1,c;
 c=a+b;
-printf("a+b=%d\n",c);
+printf("The sum is a+b=%d\n",c);
 }
 
