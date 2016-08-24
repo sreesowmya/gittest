@@ -6,7 +6,7 @@
 
 func1()
 {
-   echo "U called ${FUNCNAME}()" 
+   echo "${FUNCNAME}()" 
    echo "first argument is $1"
    echo "sec argument is $2"
    echo ""
@@ -17,7 +17,7 @@ func1()
 
 func2()
 { 
-   echo "U called ${FUNCNAME}()"
+   echo "${FUNCNAME}()"
     m=$1
     n=$2
    echo "$m + $n=`expr $m + $n`"
@@ -27,7 +27,7 @@ func2()
 
 func3()
 {
-   echo "U called ${FUNCNAME}()"
+   echo "${FUNCNAME}()"
    echo "enter x"
    read x
    echo "enter y"
